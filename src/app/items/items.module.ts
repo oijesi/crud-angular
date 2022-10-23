@@ -1,7 +1,8 @@
-import { AppMaterialModule } from './../shared/app-material/app-material.module';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+import { AppMaterialModule } from './../shared/app-material/app-material.module';
+import { SharedModule } from './../shared/shared.module';
 import { ItemsRoutingModule } from './items-routing.module';
 import { ItemsComponent } from './items/items.component';
 
@@ -12,7 +13,8 @@ import { ItemsComponent } from './items/items.component';
   imports: [
     CommonModule,
     ItemsRoutingModule,
-    AppMaterialModule
+    AppMaterialModule,
+    SharedModule
   ]
 })
 export class ItemsModule { }
