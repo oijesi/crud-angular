@@ -1,0 +1,7 @@
+[
+  { "_id": "1", "name": "Angular", "category": "Front-End" },
+  { "_id": "2", "name": "Spring", "category": "Back-End" },
+  { "_id": "3", "name": "Vue.js", "category": "Front-End" },
+  { "_id": "4", "name": "AWS", "category": "Cloud" },
+  { "_id": "5", "name": "Extreme Go Horse", "category": "Agil" }
+]
